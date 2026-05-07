@@ -220,7 +220,7 @@ export default function App() {
     try {
 
       const response = await fetch(
-        "http://13.223.184.184:8000/ask",
+         "http://local-rag.duckdns.org:8000/ask",
         {
           method: "POST",
 
